@@ -1,0 +1,42 @@
+.container {
+  border: 1px solid black;
+  width: 75%;
+  margin: 10px auto;
+  text-align: center;
+}
+.flex-blackjack-row-1,
+.flex-blackjack-row-2,
+.flex-blackjack-row-3 {
+  display: flex;
+  padding: 10px;
+  flex-wrap: wrap;
+  border: 1px solid black;
+  justify-content: space-around;
+}
+.flex-blackjack-row-1,
+.flex-blackjack-row-2 {
+  background: url("https://previews.123rf.com/images/welcomia/welcomia1706/welcomia170600070/80001725-casino-game-copy-space-casino-roulette-and-poker-green-textile-material-with-chips-3d-rendered-backg.jpg");
+  color: #ffff;
+}
+.flex-blackjack-row-1 div {
+  height: 300px;
+  padding: 10px;
+  flex: 1;
+  text-align: center;
+}
+flex-blackjack-row-1 img {
+  width: 25%;
+  padding: 10px;
+}
+.flex-blackjack-row-2 div {
+  padding: 10px;
+}
+.flex-blackjack-row-2 button {
+  padding: 10px;
+}
+table,
+td,
+th {
+  padding: 5px;
+  border: 1px solid black;
+}
